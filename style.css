@@ -1,0 +1,34 @@
+img {
+  height: 350px;
+  width: auto;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Courier New';
+}
+
+.gallery-area {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.singe-img {
+  padding: 0 20px 20px;
+}
+
+* {
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
